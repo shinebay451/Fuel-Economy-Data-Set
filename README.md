@@ -12,6 +12,8 @@ This tell's you how much rows and columns the data contain. shape[0] is rows and
 ## Next step Choose the columns you wish to work with.
 `columns_GPM = ['Model Year', 'Mfr Name', 'City FE (Guide) - Conventional Fuel', 'Comb FE (Guide) - Conventional Fuel',
                'Hwy FE (Guide) - Conventional Fuel' ]`
+
 and store it inside a new dataframe that is little bit smaller you know what it's way smaller.
+
 `smaller_df = df[columns_GPM]`
 
