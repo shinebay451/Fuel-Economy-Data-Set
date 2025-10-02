@@ -28,5 +28,14 @@ and store it inside a new dataframe that is little bit smaller you know what it'
     'Comb FE (Guide) - Conventional Fuel': 'Cob FE',
     'Hwy FE (Guide) - Conventional Fuel': 'Hwy FE'`
 
-dfsdfsdfsd
+Now we have a problem, the problem is that we use smaller_df.head() to print but this only prints the first 5 rows. So i change head(868).
+    ## To Filter Just for Hounda use:
+
+    `smaller_df = smaller_df[smaller_df['Mfr].str.contains('Honda', case=False, na=False)] Mfr is the Manufacturer.
+
+    ![image](https://github.com/user-attachments/assets/22b88815-1ce9-4ed0-b93b-0afb7fbd8069)
+
+    ## Save the Cleaned Data.
+
+    `smaller_df.to_csv("cleaned_honda_mpg.csv", index=False)`
 
