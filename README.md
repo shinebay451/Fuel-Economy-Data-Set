@@ -8,7 +8,7 @@
 `df = pd.read_excel(file)`
 This tell's you how much rows and columns the data contain. shape[0] is rows and shape[1] is columns.
 `print("Rows:", df.shape[0], "Columns:", df.shape[1])`
-![image](<img width="208" height="20" alt="image" src="https://github.com/user-attachments/assets/c7093066-49ae-4dbc-83d5-379a6c4e8942" />)
+![image](https://github.com/user-attachments/assets/d8186ab1-d279-44a2-a9ad-e47e4181c1e1)
 ## Next step Choose the columns you wish to work with.
 `columns_GPM = ['Model Year', 'Mfr Name', 'City FE (Guide) - Conventional Fuel', 'Comb FE (Guide) - Conventional Fuel',
                'Hwy FE (Guide) - Conventional Fuel' ]`
