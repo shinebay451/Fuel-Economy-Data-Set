@@ -28,7 +28,7 @@ and store it inside a new dataframe that is little bit smaller you know what it'
     'Comb FE (Guide) - Conventional Fuel': 'Cob FE',
     'Hwy FE (Guide) - Conventional Fuel': 'Hwy FE'`
 
-Now we have a problem, the problem is that we use smaller_df.head() to print but this only prints the first 5 rows. So i change head(868).
+Now we have a problem, the problem is that we use smaller_df.head() to print but this only prints the first 5 rows. So i made a change head(868).
   ## To Filter Just for Hounda use:
 
 `smaller_df = smaller_df[smaller_df['Mfr].str.contains('Honda', case=False, na=False)] Mfr is the Manufacturer.
