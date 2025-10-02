@@ -26,5 +26,7 @@ and store it inside a new dataframe that is little bit smaller you know what it'
     'Mfr Name': 'Mfr',
     'City FE (Guide) - Conventional Fuel': 'City FE',
     'Comb FE (Guide) - Conventional Fuel': 'Cob FE',
-    'Hwy FE (Guide) - Conventional Fuel': 'Hwy FE'
+    'Hwy FE (Guide) - Conventional Fuel': 'Hwy FE'`
+
+dfsdfsdfsd
 
